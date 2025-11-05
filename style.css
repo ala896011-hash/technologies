@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	height: 60%;
+  	padding: 20px;
+	background: #D2D3CE;
+	margin: 40px auto;
+}
+h2{
+ 	margin-bottom: 10px;
+}
+h1{
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+main{
+	background: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.main_content{
+	display: flex;
+	justify-content: space-between;
+}
+.main_item{
+	width: 18%;
+	font-size: 18px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+.footer_item{
+	width: 22%;
+	height: 60px;
+	background: #545452;
+	border-radius: 60px 60px;
+}
+img{
+	width: 35%;
+}
+footer .footer_item img {
+  width: 20%;
+  height: auto;
+}
